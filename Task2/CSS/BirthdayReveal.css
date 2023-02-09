@@ -62,13 +62,9 @@ body{
 
 @keyframes mv {
     from{
-        width: 100px;
-        height: 100px;
         transform: translateX(-200px);
     }
     to{
-        width: 400px;
-        height: 240px;
         transform: translateX(0);
     }
 }
