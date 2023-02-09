@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(239, 118, 239);
+}
+
+.main{
+    width: 74%;
+    height: 440px;
+    margin-top: 7%;
+    margin-left: 13%;
+    margin-right: 13%;
+    border-radius: 50px;
+    border: 5px solid lightgreen;
+    background-color: whitesmoke;
+}
+
+#guess{
+    animation: greet 3s ;
+}
+
+#btn{
+    animation: mv 3s;
+}
+.main button{
+    background-color: bisque;
+    margin-left: 45%; 
+    margin-top: 10%;
+    width: 150px; 
+    height: 80px;
+    font-size: 23px;
+    border-radius: 20px;
+    font-family:monospace;
+}
+
+.main button:hover{
+    background-color: lightgreen;
+}
+@keyframes mv {
+    from{
+        transform: translateY(300px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+@keyframes greet {
+    from{
+        transform: translateY(-200px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+
+
